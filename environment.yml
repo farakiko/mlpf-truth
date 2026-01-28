@@ -1,0 +1,63 @@
+name: mlpf-dev
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+
+  # Core scientific stack
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scikit-optimize
+  - boost-histogram
+  - mplhep
+  - pyhepmc
+
+  # HEP / columnar
+  - awkward
+  - uproot
+  - vector
+  - fastjet
+  - pyarrow
+  - fsspec
+
+  # Notebooks & docs
+  - jupyter
+  - notebook
+  - jupyter-book
+  - papermill
+  - plotly
+
+  # ML / infra
+  - onnx
+  - onnxruntime
+  - protobuf
+
+  # Dev / tooling
+  - pytest
+  - autopep8
+  - pre-commit
+  - click
+  - tqdm
+  - networkx
+
+  # Pip-only or better via pip
+  - pip
+  - pip:
+      - apache-beam
+      - array-record
+      - comet-ml
+      - mlcroissant
+      - ray[tune]
+      - tensorflow-datasets
+      - torch
+      - torchvision
+      - torchaudio      
+      - torch-runstats
+      - setGPU
+      - zenodo-get
