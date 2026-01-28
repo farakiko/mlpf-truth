@@ -45,6 +45,7 @@ dependencies:
   - click
   - tqdm
   - networkx
+  - pygraphviz
 
   # Pip-only or better via pip
   - pip
