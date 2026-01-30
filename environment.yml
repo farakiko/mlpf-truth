@@ -62,3 +62,5 @@ dependencies:
       - torch-runstats
       - setGPU
       - zenodo-get
+      - particle
+      - datasets
